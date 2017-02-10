@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Kims new IoT
+  host: Kims-new-IoT
+  disk_quota: 1024M
+  services:
+  - Kims new IoT-cloudantNoSQLDB
+  - Kims new IoT-iotf-service
